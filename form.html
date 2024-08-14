@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <html lang="fr">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Formulaire de contact</title>
+        </head>
+
+        <body>
+            <div class="bg">
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+            </div>
+            
+            <main class="form-signin">   
+                <h1 class="h3">Formulaire de saisie</h1>
+    
+                <form action="/submit" method="POST">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom" required>
+                        <label for="nom">Nom</label>
+                    </div>
+
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Prnom" required>
+                        <label for="prenom">Prénom</label>
+                    </div>
+                    
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="adresse" name="adresse" placeholder="Adresse" required>
+                        <label for="adresse">Adresse</label>
+                    </div>
+
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                        <label for="email">Email</label>
+                    </div>
+
+                    <button class="w-100 btn btn-lg" type="submit">Envoyer</button>
+                </form>
+            </main>
+        </body>
+
+    </html>
