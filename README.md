@@ -5,7 +5,7 @@
 **/submit :** Dans le balise "action" le faite de mettre "/submit" (ou n'importe quel mot) va permet de rediriger l'envoie des données qui était dans le formulaire, vers la page Form.js pour qu'il crée un nouveau utilisateur dans le tableau des utilisateurs.
 
 
-**==id :==** Pour la récupération des données la balise "id" va jouer un role important car elle permettra au code sur le fichier Form.js d'identifier les bonnes informations concernants chacune des balises "input".
+**id :** Pour la récupération des données la balise "id" va jouer un role important car elle permettra au code sur le fichier Form.js d'identifier les bonnes informations concernants chacune des balises "input".
 
 ## Page Form.js
 
