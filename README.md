@@ -22,6 +22,14 @@
    npm install
    ```
 
+Pour faire fonctionner ce programme, vous devez installer **express et body-parser**. 
+
+**Exécutez la commande suivante dans votre terminal dans le répertoire de votre projet :**
+
+```bash
+   npm install express body-parser
+   ```
+
 ## Page Form.js 
 
 **/submit :** Dans le balise "action" le faite de mettre `/submit` (ou n'importe quel mot) va permet de rediriger l'envoie des données qui était dans le formulaire, vers la page Form.js pour qu'il crée un nouveau utilisateur dans le tableau des utilisateurs.
@@ -40,14 +48,6 @@
 **Route `/delete/:id` :** Cette route permet de supprimer un utilisateur spécifique basé sur son id.
 
 **Redirection :** Après chaque modification ou suppression, l'utilisateur est redirigé vers la liste des utilisateurs (/users).
-
-Pour faire fonctionner ce programme, vous devez installer **express et body-parser**. 
-
-### Exécutez la commande suivante dans votre terminal dans le répertoire de votre projet :
-
-```bash
-   npm install express body-parser
-   ```
 
 ### Exécutez le fichier form.js avec la commande suivante :
 
