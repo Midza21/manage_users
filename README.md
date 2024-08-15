@@ -4,7 +4,6 @@
 
 Node.js
 npm
-Docker (si vous voulez exécuter l'application dans un conteneur Docker)
 
 ### Installation :
 
@@ -19,8 +18,9 @@ Docker (si vous voulez exécuter l'application dans un conteneur Docker)
 
 **Installez les dépendances nécessaires :**
 
-npm install
-
+```bash
+   npm install
+   ```
 
 ## Page Form.js 
 
@@ -45,11 +45,15 @@ Pour faire fonctionner ce programme, vous devez installer **express et body-pars
 
 ### Exécutez la commande suivante dans votre terminal dans le répertoire de votre projet :
 
-**npm install express body-parser**
+```bash
+   npm install express body-parser
+   ```
 
 ### Exécutez le fichier form.js avec la commande suivante :
 
-**node index.js**
+```bash
+   node index.js
+   ```
 
 Cela démarrera un serveur web local à l'adresse http://localhost:3000. Lorsque vous y accédez, un formulaire est affiché, vous permettant de saisir un nom, prénom, adresse et email. Après soumission, les données sont affichées sur une nouvelle page.
 
