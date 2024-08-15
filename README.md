@@ -1,4 +1,4 @@
-# Installation et Explication du code Form.html et Form.js #
+# Explication du code Form.html et Form.js #
 
 ## Prérequis
 
