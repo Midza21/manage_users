@@ -31,7 +31,7 @@
 
 ## Page Form.js
 
-**Ajout d'un tableau users[ ] :** On utilise un tableau en mémoire pour stocker les informations des utilisateurs. Chaque utilisateur est identifié par un id.
+**Ajout d'un tableau `users[ ]` :** On utilise un tableau en mémoire pour stocker les informations des utilisateurs. Chaque utilisateur est identifié par un id.
 
 **Route `/users` :** Cette route affiche la liste des utilisateurs avec des liens pour modifier ou supprimer chaque utilisateur.
 
