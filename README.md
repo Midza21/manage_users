@@ -18,11 +18,12 @@
 
 **Installez les dépendances nécessaires :**
 
+Pour faire fonctionner ce programme, vous devez installer dans votre terminal dans le répertoire de votre projet :
+
 ```bash
    npm install
    ```
 
-Pour faire fonctionner ce programme, vous devez installer dans votre terminal dans le répertoire de votre projet `express` et `body-parser` :
 
 ```bash
    npm install express body-parser
