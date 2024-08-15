@@ -10,7 +10,12 @@ Docker (si vous voulez exécuter l'application dans un conteneur Docker)
 
 **Clonez le dépôt sur votre machine locale :**
 
-git clone https://github.com/Midza21/manage_users.git
+```bash
+   git clone https://github.com/Midza21/manage_users.git
+   ```
+```bash
+   cd manage_users
+   ```
 
 **Installez les dépendances nécessaires :**
 
