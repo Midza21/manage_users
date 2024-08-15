@@ -1,5 +1,22 @@
 # manage_users #
 
+## Prérequis
+
+Node.js
+npm
+Docker (si vous voulez exécuter l'application dans un conteneur Docker)
+
+### Installation :
+
+**Clonez le dépôt sur votre machine locale :**
+
+git clone https://github.com/Midza21/manage_users.git
+
+**Installez les dépendances nécessaires :**
+
+npm install
+
+
 ## Page Form.js 
 
 **/submit :** Dans le balise "action" le faite de mettre "/submit" (ou n'importe quel mot) va permet de rediriger l'envoie des données qui était dans le formulaire, vers la page Form.js pour qu'il crée un nouveau utilisateur dans le tableau des utilisateurs.
