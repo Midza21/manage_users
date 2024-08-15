@@ -50,6 +50,8 @@ Pour faire fonctionner ce programme, vous devez installer dans votre terminal da
 
 ### Exécutez le fichier form.js avec la commande suivante :
 
+Tapez dans le terminal de votre éditeur de texte : 
+
 ```bash
    node index.js
    ```
