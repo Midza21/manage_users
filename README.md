@@ -53,7 +53,7 @@ Pour faire fonctionner ce programme, vous devez installer dans votre terminal da
 Tapez dans le terminal de votre éditeur de texte : 
 
 ```bash
-   node index.js
+   node form.js
    ```
 
 Cela démarrera un serveur web local à l'adresse http://localhost:3000. Lorsque vous y accédez, un formulaire est affiché, vous permettant de saisir un nom, prénom, adresse et email. Après soumission, les données sont affichées sur une nouvelle page.
