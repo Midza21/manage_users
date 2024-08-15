@@ -18,7 +18,7 @@
 
 **Installez les dépendances nécessaires :**
 
-Pour faire fonctionner ce programme, vous devez installer dans votre terminal dans le répertoire de votre projet :
+Pour faire fonctionner ce programme, vous devez installer dans votre terminal dans le répertoire du projet cloné :
 
 ```bash
    npm install
