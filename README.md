@@ -19,7 +19,9 @@
 
 **Redirection :** Après chaque modification ou suppression, l'utilisateur est redirigé vers la liste des utilisateurs (/users).
 
-### Pour faire fonctionner ce programme, vous devez installer express et body-parser. Exécutez la commande suivante dans votre terminal dans le répertoire de votre projet :
+Pour faire fonctionner ce programme, vous devez installer **express et body-parser**. 
+
+### Exécutez la commande suivante dans votre terminal dans le répertoire de votre projet :
 
 **npm install express body-parser**
 
